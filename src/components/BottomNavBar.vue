@@ -29,6 +29,7 @@ import IconHome from './svg/IconHome.vue';
 import IconMagnifyingGlass from './svg/IconMagnifyingGlass.vue';
 import IconUser from './svg/IconUser.vue';
 import '../scss/_global.scss';
+import '../scss/_variables.scss';
 
 @Component({
   components: {
@@ -47,6 +48,7 @@ export default class BottomNavBar extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
 #bottom-bar-mobile{
   display: flex;
   flex-direction: row;

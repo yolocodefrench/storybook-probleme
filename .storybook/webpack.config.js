@@ -21,6 +21,10 @@ module.exports = (baseConfig, env, defaultConfig) => {
   })
 
   // If you use scss,
+
+  /**
+   * I'd like this configuration to
+   */
   defaultConfig.module.rules.push({
     test: /\.scss$/,
     use: ['style-loader', 'css-loader', 'sass-loader']
