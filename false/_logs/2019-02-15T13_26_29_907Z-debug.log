@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'storybook',
+1 verbose cli   '--no-cache' ]
+2 info using npm@6.4.1
+3 info using node@v8.15.0
+4 verbose run-script [ 'prestorybook', 'storybook', 'poststorybook' ]
+5 info lifecycle vue360@0.1.0~prestorybook: vue360@0.1.0
+6 info lifecycle vue360@0.1.0~storybook: vue360@0.1.0
+7 verbose lifecycle vue360@0.1.0~storybook: unsafe-perm in lifecycle true
+8 verbose lifecycle vue360@0.1.0~storybook: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/pierre/Documents/dev/vue360/node_modules/.bin:/home/pierre/bin:/home/pierre/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+9 verbose lifecycle vue360@0.1.0~storybook: CWD: /home/pierre/Documents/dev/vue360
+10 silly lifecycle vue360@0.1.0~storybook: Args: [ '-c', 'start-storybook -p 6006' ]
+11 timing npm Completed in 505920ms
+12 error cb() never called!
+13 error This is an error with npm itself. Please report this error at:
+14 error <https://npm.community>

@@ -1,0 +1,15 @@
+@import "./variables";
+
+body{
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.icon-grey{
+    fill: $dark-grey;
+}
